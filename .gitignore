@@ -1,0 +1,333 @@
+# Next Python Framework .gitignore
+
+# =====================================================
+# Python specific files
+# =====================================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# =====================================================
+# Testing and Coverage
+# =====================================================
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+.pytest/
+test-results/
+test-reports/
+
+# =====================================================
+# Documentation and Translations
+# =====================================================
+
+# Translations
+*.mo
+*.pot
+
+# Sphinx documentation
+docs/_build/
+doc/_build/
+.readthedocs.yml
+
+# =====================================================
+# Framework specific (Django, Flask, etc.)
+# =====================================================
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# =====================================================
+# Development Tools and IDEs
+# =====================================================
+
+# PyCharm / IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# =====================================================
+# Virtual Environments
+# =====================================================
+
+# pyenv
+.python-version
+
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   install all needed dependencies.
+#Pipfile.lock
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow
+__pypackages__/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+.python-version
+
+# Conda
+.conda/
+
+# =====================================================
+# Quality Control Tools
+# =====================================================
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# bandit
+.bandit/
+
+# Black
+.black/
+
+# pre-commit
+.pre-commit-cache/
+
+# =====================================================
+# Database and Data Files
+# =====================================================
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# Data files
+*.csv
+*.json
+*.xml
+*.yaml
+*.yml
+data/
+backups/
+
+# =====================================================
+# Logs and Runtime Files
+# =====================================================
+
+# Logs
+*.log
+logs/
+log/
+
+# Runtime files
+*.pid
+*.seed
+*.pid.lock
+
+# =====================================================
+# Cache and Temporary Files
+# =====================================================
+
+# Scrapy stuff:
+.scrapy
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# =====================================================
+# OS generated files
+# =====================================================
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+.AppleDouble
+.LSOverride
+
+# Windows
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# =====================================================
+# Web and Static Files
+# =====================================================
+
+# Node.js (if using frontend build tools)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Static file builds
+public/
+static/compiled/
+assets/compiled/
+
+# =====================================================
+# Security and Configuration
+# =====================================================
+
+# Environment variables (keep .env.example)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# SSL certificates
+*.pem
+*.key
+*.crt
+*.cer
+
+# Configuration files with secrets
+config/secrets.json
+secrets.json
+credentials.json
+
+# =====================================================
+# Deployment and CI/CD
+# =====================================================
+
+# Docker
+.dockerignore
+Dockerfile.*
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# AWS
+.aws/
+
+# Heroku
+Procfile.local
+
+# =====================================================
+# Project Specific
+# =====================================================
+
+# Application specific
+uploads/
+downloads/
+cache/
+storage/
+
+# Migration files (optional - comment out if you want to track them)
+# migrations/
+
+# Documentation builds
+/site
+mkdocs.yml.bak
